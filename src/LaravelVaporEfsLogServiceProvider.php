@@ -18,8 +18,7 @@ class LaravelVaporEfsLogServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-vapor-efs-log')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-vapor-efs-log_table')
-            ->hasCommand(LaravelVaporEfsLogCommand::class);
+            ->hasCommand(LaravelVaporEfsLogCommand::class)
+            ->hasCommand(TestEfs::class);
     }
 }
