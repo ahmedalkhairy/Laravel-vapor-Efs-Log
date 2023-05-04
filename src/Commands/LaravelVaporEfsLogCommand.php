@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ahmedalkhairy\LaravelVaporEfsLog\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelVaporEfsLogCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-vapor-efs-log';
 
     public $description = 'My command';
 
